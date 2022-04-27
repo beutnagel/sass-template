@@ -4,11 +4,11 @@ A simple SASS template structure to start a SASS driven project
 
 # SASS TEMPLATE STRUCTURE
 
-github.com/beutnagel/sass-template
+## url[github.com/beutnagel/sass-template]
 
-@copyright Beutnagel
-License: Free for all, no attribution.
-This template is structured as follows
+_License: Free for all, no attribution._
+
+### This template is structured as follows
 
 <pre>
 /style.scss                 This file is used for generating style.css and loads the contents of /components and /pages
@@ -30,7 +30,7 @@ This template is structured as follows
 /../components/index.scss   Forwards all files in this folder. Remember to update when adding new files to folder           
 </pre>
 
-TIPS FOR USAGE
+## TIPS FOR USAGE
 
 - Remember to update the index file whenever you add a new component or page
 - Setup your CSS PREPROCESSOR so that only the style.css output file is generated. No other .css files are needed.
