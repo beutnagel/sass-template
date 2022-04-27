@@ -1,0 +1,8 @@
+/* 
+    Add each core file here with @forward
+    E.g. if you have a core file called /pages/fonts.scss you add 
+    @forward 'fonts';
+*/
+@forward 'reset';
+@forward 'colors';
+@forward 'fonts';

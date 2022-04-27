@@ -1,0 +1,28 @@
+/*
+    COLORS
+    Here you can define your colors as SASS variables 
+    so that they will be available in all components and pages 
+*/
+
+/* PRIMARY BRAND COLOR + variants */
+$primary: green;
+$primary-dark: darkgreen;
+$primary-light: lightgreen;
+
+/* SECONDARY BRAND COLOR + variants */
+$secondary: blue;
+$secondary-dark: darkblue;
+$secondary-light: lightblue;
+
+/* FUNCTIONAL COLORS */
+$background: #ebebeb;
+$surface: #ccc;
+$surface--dark: #333; 
+$error: red;
+
+
+/*  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    For inspiration, take a look at 
+    Google Material Design Color System: 
+    https://material.io/design/color/the-color-system.html 
+*/

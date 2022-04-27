@@ -1,0 +1,9 @@
+@use '../core' as *; /* this enables the usage of all variables and mixins from the general folder */
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-gap: 1rem;
+    justify-content: center;
+}

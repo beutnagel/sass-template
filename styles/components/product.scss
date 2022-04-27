@@ -1,0 +1,30 @@
+@use '../core' as *; /* this enables the usage of all variables and mixins from the general folder */
+
+
+.product {
+    background-color: $background;
+    max-width: 300px;
+    padding: 1rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $secondary-dark;
+    }
+
+    &__title {
+        font-family: $font_title;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: 0.5rem 0;
+    }
+    &__price {
+        font-family: $font_body;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 1rem 0;
+    }
+    &__description {
+        font-family: $font_body;
+    }
+} 
+
