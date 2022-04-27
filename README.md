@@ -4,7 +4,7 @@ A simple SASS template structure to start a SASS driven project
 
 # SASS TEMPLATE STRUCTURE
 
-## url[github.com/beutnagel/sass-template]
+## URL: [github.com/beutnagel/sass-template](https://github.com/beutnagel/sass-template)
 
 _License: Free for all, no attribution._
 
