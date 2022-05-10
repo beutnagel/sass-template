@@ -6,7 +6,7 @@ A simple SASS template structure to start a SASS driven project
 
 ## URL: [github.com/beutnagel/sass-template](https://github.com/beutnagel/sass-template)
 
-_License: Free for all, no attribution._
+_License: Free for all, no attribution required._
 
 ### This template is structured as follows
 
