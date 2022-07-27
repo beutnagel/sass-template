@@ -1,0 +1,17 @@
+@use '../core' as *; /* this enables the usage of all variables and mixins from the core folder */
+
+.menu {
+    background-color: rgb(99, 100, 99);
+    min-height: 3rem;
+    display: flex;
+    place-content: center;
+    place-items: center;
+
+    &__list {
+        display: flex;
+        gap: 1rem;
+    }
+    &__item {
+        
+    }
+}
