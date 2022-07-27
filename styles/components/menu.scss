@@ -1,7 +1,7 @@
 @use '../core' as *; /* this enables the usage of all variables and mixins from the core folder */
 
 .menu {
-    background-color: rgb(99, 100, 99);
+    background-color: $primary-dark;
     min-height: 3rem;
     display: flex;
     place-content: center;
@@ -13,5 +13,13 @@
     }
     &__item {
         
+    }
+    &__link {
+        color: $primary-light;
+        text-decoration: none;
+
+        &:hover, &--active {
+            color: white;
+        }
     }
 }
