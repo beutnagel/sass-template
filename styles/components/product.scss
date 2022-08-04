@@ -4,7 +4,9 @@
 .product {
     background-color: $background;
     max-width: 300px;
-    padding: 1rem;
+    padding: 1rem 1rem 4rem 1rem;
+    overflow: hidden;
+    position:relative;
 
     &:hover {
         cursor: pointer;
@@ -26,6 +28,29 @@
     }
     &__description {
         font-family: $font_body;
+    }
+    &__image {
+        mix-blend-mode: darken;
+    }
+
+    &__addToCart {
+        position: absolute;
+        bottom: -50px;
+        left:0;
+        width: 100%;
+        background: pink;
+        color: white;
+        font-size: 14px;
+        padding: 1rem 0;
+        text-align: center;
+        transition: bottom 250ms ease-in;
+
+        &:hover {
+            background: #e1a5b0;
+        }
+    }
+    &:hover .product__addToCart {
+        bottom: 0;
     }
 } 
 
